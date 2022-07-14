@@ -1,0 +1,51 @@
+h3{
+    color:rgb(178, 167, 70);
+    font-size: 30px;
+    font-style: italic;
+    border-color: brown;
+    background-image:;
+}
+
+.body{
+    color:palevioletred;
+}
+
+.p1{
+   color:rgba(70, 34, 81, 0.468);
+   background-color: bisque;
+}
+
+.d{
+    color: rgb(11, 59, 114);
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+ol{
+
+  color: rgb(27, 20, 122); 
+  font-size: 30x;
+  font-family: italic;
+  backdrop-filter: green; 
+}
+
+ul{
+    color: rgb(27, 20, 122);
+    font-display: 20px;
+    font-family: italic;
+}
+
+p{
+    color:rgb(37, 55, 129);
+    font-display: 20px;
+    font-size: 30px;
+    font-weight: italic;
+}
+
+a{
+    color: rgb(31, 57, 124);
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
