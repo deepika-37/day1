@@ -1,0 +1,81 @@
+<a{
+    font-size: larger;
+    color: brown;
+    background-color:black;
+  }
+  h2 {
+      text-decoration: underline;
+      color: #25aee9;
+    }
+    h4{
+      color: goldenrod;
+      font-size: larger;
+    }
+  
+    
+    .button {
+      border: 0;
+      border-radius: 5px;
+      padding: 12px 52px;
+      color: white;
+      background: #00a5ec;
+      cursor: pointer;
+    }
+    
+    .button:hover {
+      text-shadow: 2 2 5px grey;
+      box-shadow: 1 1 5px grey;
+      background-color: aqua;  
+    }
+    
+    .para {
+      font-family: "Edu VIC WA NT Beginner", cursive;
+    }
+    
+    .box {
+      width: 100px;
+      height: 100px;
+      color: bisque;
+      text-align: center;
+      background-color: gray;
+      transition: width 2s linear;
+    }
+    
+    .box:hover {
+      width: 200px;
+    }
+    
+    .circle {
+      width: 12rem;
+      height: 12rem;
+      background-color: coral;
+      border: 2px solid black;
+      border-radius: 100%;
+    }
+    
+     .animation{
+      width: 10rem;
+      height: 10rem;
+      border-radius: 20%;
+      animation: color-change 5s infinite;
+    }
+    
+    @keyframes color-change {
+      0% {
+        background-color:blue;
+        border: 5px groove black;
+      }
+      25% {
+        background-color: purple;
+        border: 5px solid pink;
+      }
+      50% {
+        background-color: palevioletred;
+        border: 5px none  plum;
+      }
+      100% {
+        background-color: rgb(216, 50, 105);
+        border: 5px double palevioletred;
+      }
+    }
+    
