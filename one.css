@@ -23,9 +23,9 @@
     }
     
     .button:hover {
-      text-shadow: 2 2 5px green;
-      box-shadow: 1 1 5px green;
-      background-color: blue;  
+      text-shadow: 2 2 5px grey;
+      box-shadow: 1 1 5px grey;
+      background-color: aqua;  
     }
     
     .para {
